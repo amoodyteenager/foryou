@@ -3,7 +3,7 @@
     font-family: 'Poppins',cursive;
 }
 body{
-    color: azure;
+    color: rgb(255, 236, 236);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@ body{
 @keyframes glow{
     0%, 100%{
         color: #fff;
-        text-shadow: 0 0 12px #39c6d6, 0 0 50px #39c6d6, 0 0 100px #39c6d6;
+        text-shadow: 0 0 12px #f692fa, 0 0 50px #f692fa, 0 0 100px #f692fa;
     }
     10%, 90%{
         color: #111;
@@ -60,7 +60,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: rgb(17, 17, 17);
 }
 
 @media screen and (max-width:574px){
